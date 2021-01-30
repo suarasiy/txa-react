@@ -1,8 +1,10 @@
-import { Child } from './Child';
+import { ChildFC } from './Child';
 
 const Parent = () => {
   return (
-    <Child />
+    <ChildFC color="red" onClick={() => { console.log("clicked") }}>
+      aslkdjaskdj
+    </ChildFC>
   )
 }
 
